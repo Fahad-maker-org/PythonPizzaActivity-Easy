@@ -16,7 +16,7 @@ while True:
     if command == possibleCommands[3]:
         # Displaying "bye" message and closing program
 
-        # ACTIVITY HERE
+        # ACTIVITY 1
         # print goodbye message
 
         print("")
@@ -41,7 +41,7 @@ while True:
         NewItemPrice = input("Please enter new Pizza price: ")
         NewItemDescription = input("Please enter new Pizza Ingredients: ")
 
-        # ACTIVITY HERE
+        # ACTIVITY 2
         # insert add item command here to append to items list (itemCount, NewItemName, NewItemPrice, NewItemDescription)
 
 
@@ -58,7 +58,7 @@ while True:
         # taking item ID as input to delete item
         deleteItem = input("Please enter Recipe ID to delete: ")
 
-        # ACTIVITY HERE
+        # ACTIVITY 3
         # insert delete item command here to pop items from items list. remember to convert "deleteItem" to an integer
 
 
@@ -75,7 +75,7 @@ while True:
         # Error message, for invalid command
         # printing all supported commands
 
-        # ACTIVITY HERE
+        # ACTIVITY 4 & 5
         # print error message here and all possible commands (use seperate print statements)
         
         print("")
