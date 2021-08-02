@@ -1,13 +1,14 @@
-# initialising variables and lists used
-items = []
-itemCount = 0
-# defing a list of possible commands
+
+items = [pizza][pepsi]
+itemCount = 2
+
+
 possibleCommands = ["help", "add new recipe", "delete recipe", "quit", "list all recipes"]
 # printing welcome message along with all possible commands
 print("Welcome to the Best Digital Pizza Recipe Book!")
 print("Please enter a command, possible commands are: ", possibleCommands)
 
-# starting a while loop to iterate through commands
+
 while True:
     # converting entered command to lower case
     command = input("Please enter command: ").lower()
